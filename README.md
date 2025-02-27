@@ -10,4 +10,4 @@ Download data. You can download all the datasets from [Autoformer](https://drive
 ## Results
 The implemented method does not improve the prediction accuracy. The MSE for prediction horizon of 144 steps on ETTm2 dataset is 0.2990145 for the baseline and 0.3108904 for the implemented method.
 
-Notably, the training loss is lower than the baseline. It can be due to extra parameters in the model. Reducing the number of parameters in the residual network might help the accuracy.
+Notably, the training loss is lower than the baseline. It can be due to extra parameters in the model. Reducing the number of parameters in the residual network might help the accuracy. (Update: neither helped)
